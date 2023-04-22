@@ -1,4 +1,5 @@
-    public function searchContact()
+<?php    
+public function searchContact()
     {
         $text = $this->input->post('text');
         $favorite_contacts = [];
